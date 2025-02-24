@@ -31,7 +31,6 @@ export function useColorModeValue(light, dark) {
 
 export function ColorModeIcon() {
 	const { colorMode } = useColorMode();
-	console.log(colorMode);
 	return colorMode === 'dark' ? <LuMoon /> : <LuSun />;
 }
 
