@@ -30,9 +30,12 @@ const router = createBrowserRouter([
 //Chakra UI
 import { Provider } from './components/ui/provider';
 import { system } from '../theme.js';
+import { StrictMode } from 'react';
 
 createRoot(document.getElementById('root')).render(
-	<Provider theme={system}>
-		<RouterProvider router={router} />
-	</Provider>
+	<StrictMode>
+		<Provider theme={system}>
+			<RouterProvider router={router} />
+		</Provider>
+	</StrictMode>
 );
