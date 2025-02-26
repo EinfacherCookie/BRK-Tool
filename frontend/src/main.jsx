@@ -21,7 +21,7 @@ const router = createBrowserRouter([
 			{
 				//Error Page not found
 				path: '*',
-				element: <div>Error, Page not found</div>,
+				element: <Error />,
 			},
 		],
 	},
@@ -31,6 +31,7 @@ const router = createBrowserRouter([
 import { Provider } from './components/ui/provider';
 import { system } from '../theme.js';
 import { StrictMode } from 'react';
+import Error from './pages/Error.jsx';
 
 createRoot(document.getElementById('root')).render(
 	<StrictMode>
