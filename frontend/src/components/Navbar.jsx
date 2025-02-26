@@ -76,7 +76,7 @@ const Navbar = () => {
 								cursor={'pointer'}
 							>
 								<Avatar.Root variant={'solid'} size={'xl'}>
-									<Avatar.Fallback name='Max Mustermann' />
+									<Avatar.Fallback name='Maxi Mustermann' />
 								</Avatar.Root>
 							</Box>
 						</motion.div>
